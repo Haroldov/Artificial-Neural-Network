@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Download and install gsl lib
+
+wget http://mirror.cedia.org.ec/gnu/gsl/gsl-latest.tar.gz
+tar -zxvf gsl-latest.tar.gz
+cd gsl*
+./configure --prefix=/usr/local/
+make
+make check
+sudo make install
+cd ..
+sudo rm -r gsl*
