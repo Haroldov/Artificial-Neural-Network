@@ -1,6 +1,6 @@
 # C implementation of a Neural Network
 
-# Installation of the GNU Scientific Library (GSL)
+## Installation of the GNU Scientific Library (GSL)
 
 In these links there are steps you that you can follow in order to install those packages:
 
